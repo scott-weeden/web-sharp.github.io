@@ -4558,9 +4558,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					
 											<div class="vc_col-sm-3">
 							<div class="widget-area">
-								<aside id="text-7" class="widget widget_text"><h3 class="widget-title">Main Office</h3>			<div class="textwidget"><p>STE 206-207<br />
+								<aside id="text-7" class="widget widget_text"><h3 class="widget-title">Main Office</h3>			<div class="textwidget"><p>STE 206<br />
 1650 SE 3RD AVE,<br />
-PITTMAN BUILDING<br />
+
 97214 PORTLAND, OREGON</p>
 </div>
 		</aside>							</div>	
@@ -4568,7 +4568,7 @@ PITTMAN BUILDING<br />
 					
 											<div class="vc_col-sm-3">
 							<div class="widget-area">
-								<aside id="text-9" class="widget widget_text"><h3 class="widget-title">Contact Info</h3>			<div class="textwidget"><p>727-203-1177<br />
+								<aside id="text-9" class="widget widget_text"><h3 class="widget-title">Contact Info</h3>			<div class="textwidget"><p>‪503-928-4982‬<br />
 727-203-1177<br />
 hello@websharpstudios.com</p>
 </div>
@@ -4783,7 +4783,7 @@ function initAllMaps(){
                     }
                     ]
             });
-            var contentString = `<div><p style="font-weight:bold; font-size: 1.2em;margin:0; max-width:200px;">WebSharp Studios</p><p style="margin: 5px 0;">STE 206-207
+            var contentString = `<div><p style="font-weight:bold; font-size: 1.2em;margin:0; max-width:200px;">WebSharp Studios</p><p style="margin: 5px 0;">STE 206
 1650 SE 3RD AVE,
 PITTMAN BUILDING
 97214 PORTLAND, OREGON</p><p><a href="https://goo.gl/maps/LSfY3h1xHWfFj3Nx7" target="_blank">View in Google Maps</a></p></div>`;

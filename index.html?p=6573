@@ -266,15 +266,15 @@ display: none;
 <!--[if lt IE 9]>
 <link rel='stylesheet' id='collars-ie-only-css'  href='http://www.websharpstudios.com/wp-content/themes/tilt/library/css/ie.css' type='text/css' media='all' />
 <![endif]-->
-<script type='text/javascript' src='http://www.websharpstudios.com/wp-includes/js/jquery/jquery.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/gsap/gsap.min.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/ScrollMagic/ScrollMagic.min.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/p5js/p5.min.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/glidejs/glide.min.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/swiper/swiper.min.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/custom.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt/library/js/libs/modernizr.custom.min.js'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' defer src='/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/gsap/gsap.min.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/ScrollMagic/ScrollMagic.min.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/p5js/p5.min.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/glidejs/glide.min.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/swiper/swiper.min.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/custom.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt/library/js/libs/modernizr.custom.min.js'></script>
 <link rel='https://api.w.org/' href='http://www.websharpstudios.com/wp-json/' />
 <link rel='shortlink' href='http://www.websharpstudios.com/?p=6573' />
 <link rel="alternate" type="application/json+oembed" href="http://www.websharpstudios.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwebsharpstudios.com%2Four-services%2F" />
@@ -391,7 +391,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div id="site-logo">
 							  <a href="/#home">
 
-			<img src="http://www.websharpstudios.com/wp-content/uploads/2015/09/websharp_logo_text.png" alt="WebSharp" class="default-logo" /><img src="http://www.websharpstudios.com/wp-content/uploads/2015/09/websharp_logo_text_retina.png" alt="WebSharp" class="retina-logo" /><img src="http://www.websharpstudios.com/wp-content/uploads/2015/09/websharp_logo_text.png" alt="WebSharp" class="sticked-logo" /><img src="http://www.websharpstudios.com/wp-content/uploads/2015/09/websharp_logo_text.png" alt="WebSharp" class="sticked-retina-logo" /></a>						</div>
+			<img src="/wp-content/uploads/2015/09/websharp_logo_text.png" alt="WebSharp" class="default-logo" /><img src="/wp-content/uploads/2015/09/websharp_logo_text_retina.png" alt="WebSharp" class="retina-logo" /><img src="/wp-content/uploads/2015/09/websharp_logo_text.png" alt="WebSharp" class="sticked-logo" /><img src="/wp-content/uploads/2015/09/websharp_logo_text.png" alt="WebSharp" class="sticked-retina-logo" /></a>						</div>
 
 						<nav id="site-navigation" class="from-top" role="navigation">
 
@@ -479,7 +479,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div  class="wpb_single_image wpb_content_element vc_align_center   banner-arrow">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<a href="#entry_content" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="32" height="67" src="http://www.websharpstudios.com/wp-content/uploads/2020/02/homepage_banner_down_arrow.png" class="vc_single_image-img attachment-full" alt="" /></a>
+			<a href="#entry_content" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="32" height="67" src="/wp-content/uploads/2020/02/homepage_banner_down_arrow.png" class="vc_single_image-img attachment-full" alt="" /></a>
 		</figure>
 	</div>
 
@@ -4302,7 +4302,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div  class="wpb_single_image wpb_content_element vc_align_center   arrow_bottom">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<a href="#WebSharp_services" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="32" height="67" src="http://www.websharpstudios.com/wp-content/uploads/2020/02/homepage_supercharge_down_arrow.png" class="vc_single_image-img attachment-full" alt="" /></a>
+			<a href="#WebSharp_services" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="32" height="67" src="/wp-content/uploads/2020/02/homepage_supercharge_down_arrow.png" class="vc_single_image-img attachment-full" alt="" /></a>
 		</figure>
 	</div>
 </div></div></div></div>
@@ -4325,7 +4325,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div  class="wpb_single_image wpb_content_element vc_align_left">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<a href="/our-services/data-infrastructure-data-pipeline/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="414" height="434" src="http://www.websharpstudios.com/wp-content/uploads/2020/06/service-banner-di.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.websharpstudios.com/wp-content/uploads/2020/06/service-banner-di.jpg 414w, http://www.websharpstudios.com/wp-content/uploads/2020/06/service-banner-di-286x300.jpg 286w" sizes="(max-width: 414px) 100vw, 414px" /></a>
+			<a href="/our-services/data-infrastructure-data-pipeline/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="414" height="434" src="/wp-content/uploads/2020/06/service-banner-di.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.websharpstudios.com/wp-content/uploads/2020/06/service-banner-di.jpg 414w, http://www.websharpstudios.com/wp-content/uploads/2020/06/service-banner-di-286x300.jpg 286w" sizes="(max-width: 414px) 100vw, 414px" /></a>
 		</figure>
 	</div>
 
@@ -4341,7 +4341,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div  class="wpb_single_image wpb_content_element vc_align_left">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<a href="/our-services/data-analytics-business-intelligence/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="414" height="434" src="http://www.websharpstudios.com/wp-content/uploads/2020/06/service-banner-da.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.websharpstudios.com/wp-content/uploads/2020/06/service-banner-da.jpg 414w, http://www.websharpstudios.com/wp-content/uploads/2020/06/service-banner-da-286x300.jpg 286w" sizes="(max-width: 414px) 100vw, 414px" /></a>
+			<a href="/our-services/data-analytics-business-intelligence/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="414" height="434" src="/wp-content/uploads/2020/06/service-banner-da.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.websharpstudios.com/wp-content/uploads/2020/06/service-banner-da.jpg 414w, http://www.websharpstudios.com/wp-content/uploads/2020/06/service-banner-da-286x300.jpg 286w" sizes="(max-width: 414px) 100vw, 414px" /></a>
 		</figure>
 	</div>
 
@@ -4357,7 +4357,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div  class="wpb_single_image wpb_content_element vc_align_left">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<a href="/our-services/data-stories-data-visualisation/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="414" height="434" src="http://www.websharpstudios.com/wp-content/uploads/2020/06/services-banner-ds.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.websharpstudios.com/wp-content/uploads/2020/06/services-banner-ds.jpg 414w, http://www.websharpstudios.com/wp-content/uploads/2020/06/services-banner-ds-286x300.jpg 286w" sizes="(max-width: 414px) 100vw, 414px" /></a>
+			<a href="/our-services/data-stories-data-visualisation/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="414" height="434" src="/wp-content/uploads/2020/06/services-banner-ds.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.websharpstudios.com/wp-content/uploads/2020/06/services-banner-ds.jpg 414w, http://www.websharpstudios.com/wp-content/uploads/2020/06/services-banner-ds-286x300.jpg 286w" sizes="(max-width: 414px) 100vw, 414px" /></a>
 		</figure>
 	</div>
 
@@ -4373,7 +4373,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div  class="wpb_single_image wpb_content_element vc_align_left">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<a href="/our-services/data-science-and-artificial-intelligence" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="414" height="434" src="http://www.websharpstudios.com/wp-content/uploads/2020/06/services-banner-ai.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.websharpstudios.com/wp-content/uploads/2020/06/services-banner-ai.jpg 414w, http://www.websharpstudios.com/wp-content/uploads/2020/06/services-banner-ai-286x300.jpg 286w" sizes="(max-width: 414px) 100vw, 414px" /></a>
+			<a href="/our-services/data-science-and-artificial-intelligence" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="414" height="434" src="/wp-content/uploads/2020/06/services-banner-ai.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.websharpstudios.com/wp-content/uploads/2020/06/services-banner-ai.jpg 414w, http://www.websharpstudios.com/wp-content/uploads/2020/06/services-banner-ai-286x300.jpg 286w" sizes="(max-width: 414px) 100vw, 414px" /></a>
 		</figure>
 	</div>
 
@@ -4398,7 +4398,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div  class="wpb_single_image wpb_content_element vc_align_left">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="414" height="334" src="http://www.websharpstudios.com/wp-content/uploads/2020/02/homepage_service_img4.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.websharpstudios.com/wp-content/uploads/2020/02/homepage_service_img4.jpg 414w, http://www.websharpstudios.com/wp-content/uploads/2020/02/homepage_service_img4-300x242.jpg 300w" sizes="(max-width: 414px) 100vw, 414px" /></div>
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="414" height="334" src="/wp-content/uploads/2020/02/homepage_service_img4.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.websharpstudios.com/wp-content/uploads/2020/02/homepage_service_img4.jpg 414w, http://www.websharpstudios.com/wp-content/uploads/2020/02/homepage_service_img4-300x242.jpg 300w" sizes="(max-width: 414px) 100vw, 414px" /></div>
 		</figure>
 	</div>
 
@@ -4430,7 +4430,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div  class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1592496747247">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="vc_single_image-img " src="http://www.websharpstudios.com/wp-content/uploads/2020/06/services-stock-465x510.jpg" width="465" height="510" alt="services-stock" title="services-stock" /></div>
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="vc_single_image-img " src="/wp-content/uploads/2020/06/services-stock-465x510.jpg" width="465" height="510" alt="services-stock" title="services-stock" /></div>
 		</figure>
 	</div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-7"><div class="vc_column-inner"><div class="wpb_wrapper">    <div class="icon_with_text_holder daas_features">
@@ -4847,7 +4847,7 @@ PITTMAN BUILDING
 var wpcf7 = {"apiSettings":{"root":"https:\/\/websharpstudios.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
 /* ]]> */
 </script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+<script type='text/javascript' defer src='/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var leadin_wordpress = {"userRole":"visitor","pageType":"page","leadinPluginVersion":"7.43.4"};
@@ -4855,14 +4855,14 @@ var leadin_wordpress = {"userRole":"visitor","pageType":"page","leadinPluginVers
 </script>
 <script async defer id="hs-script-loader" type='text/javascript' defer src='//js.hs-scripts.com/8498750.js?integration=WordPress'></script>
 
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/svgjs/svg.min.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/custom-footer.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/threejs/three.min.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/threejs/EffectComposer.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/threejs/CopyShader.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/threejs/FXAAShader.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/threejs/RenderPass.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/threejs/ShaderPass.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/svgjs/svg.min.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/custom-footer.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/threejs/three.min.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/threejs/EffectComposer.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/threejs/CopyShader.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/threejs/FXAAShader.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/threejs/RenderPass.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/threejs/ShaderPass.js'></script>
 <script type="x-shader/x-vertex" id="vertexShader">
 //
 // GLSL textureless classic 3D noise "cnoise",
@@ -5147,17 +5147,17 @@ void main() {
 
     gl_FragColor = vec4(color, 1.0);
 }
-</script><script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/threejs/vanta.dots.min.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt-child/js/threejs/custom.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt/library/js/scripts.js'></script>
+</script><script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/threejs/vanta.dots.min.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/threejs/custom.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt/library/js/scripts.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var objectL10n = {"title":"Menu"};
 /* ]]> */
 </script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/themes/tilt/library/js/libs/jquery.mmenu.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-includes/js/wp-embed.min.js'></script>
-<script type='text/javascript' defer src='http://www.websharpstudios.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js'></script>
+<script type='text/javascript' defer src='/wp-content/themes/tilt/library/js/libs/jquery.mmenu.js'></script>
+<script type='text/javascript' defer src='/wp-includes/js/wp-embed.min.js'></script>
+<script type='text/javascript' defer src='/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js'></script>
 <script type="text/javascript">
 ( function( sitekey, actions ) {
 

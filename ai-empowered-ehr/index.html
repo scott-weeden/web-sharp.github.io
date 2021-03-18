@@ -608,67 +608,67 @@
 
 	<!--[if IE 9]> <script>var _gambitParallaxIE9 = true;</script> <![endif]-->
 	<script type="text/javascript">
-			var ajaxRevslider;
-			
-			jQuery(document).ready(function() {
-				// CUSTOM AJAX CONTENT LOADING FUNCTION
-				ajaxRevslider = function(obj) {
-				
-					// obj.type : Post Type
-					// obj.id : ID of Content to Load
-					// obj.aspectratio : The Aspect Ratio of the Container / Media
-					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
-					
-					var content = "";
+		var ajaxRevslider;
 
-					data = {};
-					
-					data.action = 'revslider_ajax_call_front';
-					data.client_action = 'get_slider_html';
-					data.token = '21c201c9c3';
-					data.type = obj.type;
-					data.id = obj.id;
-					data.aspectratio = obj.aspectratio;
-					
-					// SYNC AJAX REQUEST
-					jQuery.ajax({
-						type:"post",
-						url:"/wp-admin/admin-ajax.php",
-						dataType: 'json',
-						data:data,
-						async:false,
-						success: function(ret, textStatus, XMLHttpRequest) {
-							if(ret.success == true)
-								content = ret.data;								
-						},
-						error: function(e) {
-							console.log(e);
-						}
-					});
-					
-					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
-					 return content;						 
-				};
-				
-				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
-				var ajaxRemoveRevslider = function(obj) {
-					return jQuery(obj.selector+" .rev_slider").revkill();
-				};
+		jQuery(document).ready(function () {
+			// CUSTOM AJAX CONTENT LOADING FUNCTION
+			ajaxRevslider = function (obj) {
 
-				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
-				var extendessential = setInterval(function() {
-					if (jQuery.fn.tpessential != undefined) {
-						clearInterval(extendessential);
-						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
-							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
-							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
-							// func: the Function Name which is Called once the Item with the Post Type has been clicked
-							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
-							// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
-						}
+				// obj.type : Post Type
+				// obj.id : ID of Content to Load
+				// obj.aspectratio : The Aspect Ratio of the Container / Media
+				// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+
+				var content = "";
+
+				data = {};
+
+				data.action = 'revslider_ajax_call_front';
+				data.client_action = 'get_slider_html';
+				data.token = '21c201c9c3';
+				data.type = obj.type;
+				data.id = obj.id;
+				data.aspectratio = obj.aspectratio;
+
+				// SYNC AJAX REQUEST
+				jQuery.ajax({
+					type: "post",
+					url: "/wp-admin/admin-ajax.php",
+					dataType: 'json',
+					data: data,
+					async: false,
+					success: function (ret, textStatus, XMLHttpRequest) {
+						if (ret.success == true)
+							content = ret.data;
+					},
+					error: function (e) {
+						console.log(e);
 					}
-				},30);
-			});
+				});
+
+				// FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+				return content;
+			};
+
+			// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+			var ajaxRemoveRevslider = function (obj) {
+				return jQuery(obj.selector + " .rev_slider").revkill();
+			};
+
+			// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+			var extendessential = setInterval(function () {
+				if (jQuery.fn.tpessential != undefined) {
+					clearInterval(extendessential);
+					if (typeof (jQuery.fn.tpessential.defaults) !== 'undefined') {
+						jQuery.fn.tpessential.defaults.ajaxTypes.push({ type: "revslider", func: ajaxRevslider, killfunc: ajaxRemoveRevslider, openAnimationSpeed: 0.3 });
+						// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+						// func: the Function Name which is Called once the Item with the Post Type has been clicked
+						// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+						// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+					}
+				}
+			}, 30);
+		});
 	</script>
 	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
 	<noscript>
@@ -721,13 +721,13 @@
 										<ul class="sub-menu">
 											<li id="menu-item-6902"
 												class="services-submenu data-infrastructure menu-item menu-item-type-post_type menu-item-object-page menu-item-6902">
-												<a href="/our-services/data-infrastructure-data-pipeline/">Data
-													Infrastructure &#038; Data Pipeline</a>
+												<a href="/ai-empowered-ehr/">Data
+													Electronic Health Records</a>
 											</li>
 											<li id="menu-item-7394"
 												class="services-submenu data-analytics menu-item menu-item-type-post_type menu-item-object-page menu-item-7394">
 												<a href="/our-services/data-analytics-business-intelligence/">Data
-													Analytics &#038; Business Intelligence</a>
+													Accounting Firm 4 DocuSign</a>
 											</li>
 											<li id="menu-item-6901"
 												class="services-submenu data-stories menu-item menu-item-type-post_type menu-item-object-page menu-item-6901">
@@ -743,7 +743,7 @@
 									</li>
 									<li id="menu-item-7233"
 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7233">
-										<a href="/our-work/">Our Work</a>
+										<a href="/privacy-statement/">Privacy Policy</a>
 									</li>
 									<li id="menu-item-7000"
 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7000">
@@ -773,12 +773,6 @@
 
 
 		</header><!-- #site-header -->
-
-
-
-
-
-
 		<div id="main" class="clearfix">
 
 
@@ -810,21 +804,37 @@
 							<h1 class="entry-title">Reducing the Clinician Burden: Shaping Health IT as an Asset</h1>
 						</header><!-- .entry-header -->
 						<div class="entry-content">
-							<p>Electronic Health Records increase patient engagement and reduce risk of liability</p>
-							<p>But few providers and clinicians are utilizing AI that is available, reliable and
-								affordable with major cloud service providers such as Google, Amazon and Microsoft </p>
-							<p>Web Sharp Studios has assisted countless providers from Dentists, General Practitioners,
-								to Specialists clinics in recognizing the power of AI. Did you know that X-Ray images,
-								blood test results, and a other electronic health record metrics can be autonomously
-								reviewed and flagged?</p>
-							<p>Like many industries around the world that have seen change due to automation physicians,
-								doctors, dentists, and laboratories are using the
-								power of AI to reduce liability, while providing their patients with a second set of
-								eyes.</p>
-							<p>Now let us put Electronic Health Records to work for you! Web Sharp Studios has several
-								support contracts available for small and large
-								practices. We also provide technical support, automated patient SMS appointment
-								confirmations, voice answering and EHR integration for new and existing practices</p>
+							<p>
+								Healthcare providers can now leverage the wide-scale availability of machine learning to
+								provide a second diagnosis. AI technology should never make a single diagnosis
+								but doctors, physicians, clinicians, and dentists can now leverage the power of AI to
+								reduce liability.
+								Here we describe just a few cases where large data sets have been used to improve
+								patient healthcare and outcome:
+							</p>
+							<p>Doctor E., DDS was about to provide his patient with a treatment plan. The treatment plan
+								was to
+								include the removal of a loose crown and replace it with a new one. The crown was nearly
+								10 years
+								of age so the diagnosis was quite common. But then the patients health records and
+								X-rays
+								were uploaded to AI-EHR. Doctor E. was alerted to a possible hairline fracture in the
+								tooth where
+								the
+								crown was placed. After looking closer at the X-Ray Doctor E. agreed with the AI alert.
+								Had Doctor E. attempted to remove the crown
+								it would have placed him in an emergency tooth extraction scenario. But now his patient
+								needed
+								a more expensive and lengthy procedure -- an implant. This was discovered before
+								miscommunication was made in the treatment plan. The patient reviewed the costs and
+								timeline
+								and an implant was scheduled for a later date and time without mishap.
+							</p>
+							<p></p>
+							<p>Like many industries around the world that have seen change due to automation, physicians
+								will want to adapt to the technological advancements. This won&#8217;t
+								replace the diagnosis of a trained physician. But large data sets well trained for
+								specialists can reduce liability and serve as a secone pair of eyes. </p>
 						</div><!-- .entry-content -->
 						<div class="tag-links"><span><a href="/tag/featured1/" rel="tag">featured1</a></span></div>
 						<div class="entry-meta-footer">
@@ -840,11 +850,11 @@
 									href="/author/WebSharpadmin/" title="View all posts by Scott">Scott</a></span><span
 								class="meta-category"><i class="icon-folder-alt"></i><a
 									href="/category/artificial-intelligence/" rel="category tag">Artificial
-									Intelligence</a>, <a href="/category/audio/" rel="category tag">Audio</a>, <a
-									href="/category/machine-learning/" rel="category tag">Machine
+									Intelligence</a>, <a href="/category/healthcare/" rel="category tag">Healthcare</a>,
+								<a href="/category/machine-learning/" rel="category tag">Machine
 									Learning</a></span><span class="meta-comments"><i
 									class="icon-bubble"></i><span>Comments Off<span class="screen-reader-text"> on AI in
-										Music: The End of Human Creativity?</span></span></span>
+										Healthcare: Reduced Liability and Improved Patient Outcome?</span></span></span>
 						</div>
 					</article><!-- #post-6011 -->
 
@@ -999,13 +1009,13 @@
 												<ul class="sub-menu">
 													<li id="menu-item-7068"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7068">
-														<a href="/our-services/data-infrastructure-data-pipeline/">Data
-															Infrastructure &#038; Data Pipeline</a>
+														<a href="/ai-empowered-ehr/">Data
+															Electronic Health Records</a>
 													</li>
 													<li id="menu-item-7405"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7405">
 														<a href="/our-services/data-analytics-business-intelligence/">Data
-															Analytics &#038; Business Intelligence</a>
+															Accounting Firm 4 DocuSign</a>
 													</li>
 													<li id="menu-item-7067"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7067">
@@ -1022,7 +1032,7 @@
 											</li>
 											<li id="menu-item-7404"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7404">
-												<a href="/our-work/">Our Work</a>
+												<a href="/privacy-statement/">Privacy Policy</a>
 											</li>
 											<li id="menu-item-6039"
 												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6039">
@@ -1056,7 +1066,7 @@
 								<aside id="text-9" class="widget widget_text">
 									<h3 class="widget-title">Contact Info</h3>
 									<div class="textwidget">
-										<p>503-727-3503<br />
+										<p>Phone: 503-727-3503<br />
 											health-it@websharpstudios.com</p>
 									</div>
 								</aside>
@@ -1393,7 +1403,7 @@
 													});
 													var contentString = `<div><p style="font-weight:bold; font-size: 1.2em;margin:0; max-width:200px;">WebSharp Studios</p><p style="margin: 5px 0;">STE 206
 1650 SE 3RD AVE,
-PITTMAN BUILDING
+
 97214 PORTLAND, OREGON</p><p><a href="https://goo.gl/maps/LSfY3h1xHWfFj3Nx7" target="_blank">View in Google Maps</a></p></div>`;
 
 													var infowindow = new google.maps.InfoWindow({
@@ -1441,7 +1451,7 @@ PITTMAN BUILDING
 					<ul class="sub-menu">
 						<li id="menu-item-7072"
 							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7072"><a
-								href="/our-services/data-infrastructure-data-pipeline/">Data Infrastructure &#038; Data
+								href="/ai-empowered-ehr/">Data Infrastructure &#038; Data
 								Pipeline</a></li>
 						<li id="menu-item-7403"
 							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7403"><a
@@ -1458,7 +1468,7 @@ PITTMAN BUILDING
 					</ul>
 				</li>
 				<li id="menu-item-7402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7402">
-					<a href="/our-work/">Our Work</a>
+					<a href="/privacy-statement/">Privacy Policy</a>
 				</li>
 				<li id="menu-item-5951" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5951">
 					<a href="/careers">Careers</a>

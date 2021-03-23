@@ -712,7 +712,7 @@
 	class="page-template page-template-page-full-width page-template-page-full-width-php page page-id-6573 page-parent wpb-js-composer js-comp-ver-6.2.0 vc_responsive">
 
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.websharpstudios.com/ns.html?id=GTM-NGWGD83" height="0" width="0"
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCXDS9L" height="0" width="0"
 			style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 
@@ -9100,7 +9100,7 @@
 										<p>STE 206<br />
 											1650 SE 3RD AVE,<br />
 
-											97214 PORTLAND, OREGON</p>
+											Portland, Oregon 97214</p>
 									</div>
 								</aside>
 							</div>
@@ -9220,8 +9220,8 @@
 																<div
 																	style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;">
 																	<div style="width: 24px; height: 24px; overflow: hidden; position: absolute; cursor: pointer; touch-action: none; left: -12px; top: -24px; z-index: 0;"
-																		title="WebSharp Studios"
-																		aria-label="WebSharp Studios" role="img"><img
+																		title="Web&#163; Studios"
+																		aria-label="Web&#163; Studios" role="img"><img
 																			alt=""
 																			src="https://maps.gstatic.com/mapfiles/transparent.png"
 																			draggable="false"
@@ -9447,10 +9447,10 @@
 															}
 														]
 													});
-													var contentString = `<div><p style="font-weight:bold; font-size: 1.2em;margin:0; max-width:200px;">WebSharp Studios</p><p style="margin: 5px 0;">STE 206
+													var contentString = `<div><p style="font-weight:bold; font-size: 1.2em;margin:0; max-width:200px;">Web&#163; Studios</p><p style="margin: 5px 0;">STE 206
 1650 SE 3RD AVE,
 
-97214 PORTLAND, OREGON</p><p><a href="https://goo.gl/maps/LSfY3h1xHWfFj3Nx7" target="_blank">View in Google Maps</a></p></div>`;
+Portland, Oregon 97214</p><p><a href="https://goo.gl/maps/LSfY3h1xHWfFj3Nx7" target="_blank">View in Google Maps</a></p></div>`;
 
 													var infowindow = new google.maps.InfoWindow({
 														content: contentString
@@ -9462,7 +9462,7 @@
 														map: map,
 														animation: google.maps.Animation.DROP,
 														icon: "/wp-content/uploads/2020/06/map-pin.png",
-														title: "WebSharp Studios"
+														title: "Web&#163; Studios"
 													});
 
 													marker.addListener('click', function () {
@@ -9550,8 +9550,7 @@
 		var leadin_wordpress = { "userRole": "visitor", "pageType": "page", "leadinPluginVersion": "7.43.4" };
 /* ]]> */
 	</script>
-	<script async defer id="hs-script-loader" type='text/javascript' defer
-		src='//js.hs-scripts.com/8498750.js?integration=WordPress'></script>
+
 
 	<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/svgjs/svg.min.js'></script>
 	<script type='text/javascript' defer src='/wp-content/themes/tilt-child/js/custom-footer.js'></script>
@@ -9859,68 +9858,7 @@ void main() {
 	<script type='text/javascript' defer src='/wp-includes/js/wp-embed.min.js'></script>
 	<script type='text/javascript' defer
 		src='/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js'></script>
-	<script type="text/javascript">
-		(function (sitekey, actions) {
 
-			document.addEventListener('DOMContentLoaded', function (event) {
-				var wpcf7recaptcha = {
-
-					execute: function (action) {
-						grecaptcha.execute(
-							sitekey,
-							{ action: action }
-						).then(function (token) {
-							var event = new CustomEvent('wpcf7grecaptchaexecuted', {
-								detail: {
-									action: action,
-									token: token,
-								},
-							});
-
-							document.dispatchEvent(event);
-						});
-					},
-
-					executeOnHomepage: function () {
-						wpcf7recaptcha.execute(actions['homepage']);
-					},
-
-					executeOnContactform: function () {
-						wpcf7recaptcha.execute(actions['contactform']);
-					},
-
-				};
-
-				grecaptcha.ready(
-					wpcf7recaptcha.executeOnHomepage
-				);
-
-				document.addEventListener('change',
-					wpcf7recaptcha.executeOnContactform, false
-				);
-
-				document.addEventListener('wpcf7submit',
-					wpcf7recaptcha.executeOnHomepage, false
-				);
-
-			});
-
-			document.addEventListener('wpcf7grecaptchaexecuted', function (event) {
-				var fields = document.querySelectorAll(
-					"form.wpcf7-form input[name='g-recaptcha-response']"
-				);
-
-				for (var i = 0; i < fields.length; i++) {
-					var field = fields[i];
-					field.setAttribute('value', event.detail.token);
-				}
-			});
-
-		})(
-			'6LXRS64ZAAAAAC_AB9GDm2Dt6iszbb4ZC44s6sFf',
-			{ "homepage": "homepage", "contactform": "contactform" }
-		);
-	</script>
 </body>
 
 </html>

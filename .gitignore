@@ -76,3 +76,7 @@ typings/
 
 # FuseBox cache
 .fusebox/
+*.json
+/obj
+
+/.vs

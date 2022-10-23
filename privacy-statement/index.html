@@ -17,10 +17,7 @@
 	<link rel="apple-touch-icon" href="/wp-content/uploads/2015/09/logo-black-60.png" />
 
 	<meta name="robots" content="index, follow" />
-	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<link rel="canonical" href="/Privacy-statement/" />
-	<meta property="og:locale" content="en_US" />
+	<meta property="og:locale" content="de_DE" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Privacy Statement - Web Sharp Studios" />
 
@@ -77,8 +74,6 @@
 		#wp-calendar #today,
 		.vc_progress_bar .vc_single_bar.bar_themecolor .vc_bar,
 		#site-navigation .header_cart_button .cart_product_count,
-		.woocommerce a.added_to_cart,
-		.woocommerce-page a.added_to_cart,
 		.header-search .search-input,
 		.pricing-box .plan-badge,
 		p.form-submit #submit,
@@ -815,8 +810,7 @@
 																</li>
 																<li>We don’t share your personal information with anyone
 																	except to comply with the law, develop our products,
-																	or
-																	protect our rights.
+																	or protect our rights.
 																</li>
 																<li>We don’t store personal information on our servers
 																	unless required for the on-going operation of our
@@ -876,7 +870,7 @@
 																of the interaction. For example, we ask visitors who
 																comment on our blog to provide a username and email
 																address.
-																Those who wish to receive WPBeginner updates via email,
+																Those who wish to receive updates via email,
 																we collect their emails. In each case, Web Sharp
 																collects
 																such information only insofar as is necessary or
@@ -1052,7 +1046,6 @@
 			<!-- #container -->
 		</div>
 		<!-- #main  -->
-
 		<footer class="site-footer">
 			<div class="wpb_row">
 				<div class="footer-sidebar">
@@ -1205,27 +1198,6 @@
 	<!-- #wrapper -->
 
 	<script type="text/html" id="wpb-modifications"></script>
-	<script type="text/javascript">
-		/* <![CDATA[ */
-		var wpcf7 = {
-			apiSettings: {
-				root: 'https:\/\/websharpstudios.com\/wp-json\/contact-form-7\/v1',
-				namespace: 'contact-form-7\/v1',
-			},
-		}
-		      /* ]]> */
-	</script>
-	<script type="text/javascript" defer src="/wp-content/plugins/contact-form-7/includes/js/scripts.js"></script>
-	<script type="text/javascript">
-		/* <![CDATA[ */
-		var leadin_wordpress = {
-			userRole: 'visitor',
-			pageType: 'page',
-			leadinPluginVersion: '7.43.4',
-		}
-		      /* ]]> */
-	</script>
-
 	<script type="text/javascript" defer src="/wp-content/themes/tilt-child/js/svgjs/svg.min.js"></script>
 	<script type="text/javascript" defer src="/wp-content/themes/tilt-child/js/custom-footer.js"></script>
 	<script type="text/javascript" defer src="/wp-content/themes/tilt-child/js/threejs/three.min.js"></script>
@@ -1534,64 +1506,7 @@
 		src="/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js"></script>
 	<script type="text/javascript" defer
 		src="/wp-content/plugins/parallax-backgrounds-for-vc/js/min/script-min.js"></script>
-	<script type="text/javascript">
-			; (function (sitekey, actions) {
-				document.addEventListener('DOMContentLoaded', function (event) {
-					var wpcf7recaptcha = {
-						execute: function (action) {
-							grecaptcha
-								.execute(sitekey, { action: action })
-								.then(function (token) {
-									var event = new CustomEvent('wpcf7grecaptchaexecuted', {
-										detail: {
-											action: action,
-											token: token,
-										},
-									})
-
-									document.dispatchEvent(event)
-								})
-						},
-
-						executeOnHomepage: function () {
-							wpcf7recaptcha.execute(actions['homepage'])
-						},
-
-						executeOnContactform: function () {
-							wpcf7recaptcha.execute(actions['contactform'])
-						},
-					}
-
-					grecaptcha.ready(wpcf7recaptcha.executeOnHomepage)
-
-					document.addEventListener(
-						'change',
-						wpcf7recaptcha.executeOnContactform,
-						false,
-					)
-
-					document.addEventListener(
-						'wpcf7submit',
-						wpcf7recaptcha.executeOnHomepage,
-						false,
-					)
-				})
-
-				document.addEventListener('wpcf7grecaptchaexecuted', function (event) {
-					var fields = document.querySelectorAll(
-						"form.wpcf7-form input[name='g-recaptcha-response']",
-					)
-
-					for (var i = 0; i < fields.length; i++) {
-						var field = fields[i]
-						field.setAttribute('value', event.detail.token)
-					}
-				})
-			})('6LXRS64ZAAAAAC_AB9GDm2Dt6iszbb4ZC44s6sFf', {
-				homepage: 'homepage',
-				contactform: 'contactform',
-			})
-	</script>
+	
 </body>
 
 </html>
